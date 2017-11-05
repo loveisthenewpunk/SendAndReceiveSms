@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<link href="Account.css" rel="stylesheet" />
+<title>Account Info</title>
+<header>
+	<center>
+		<img class="titleImage" src="capital_one_header.jpg" alt="Captial One Bank" />
+	</center>
+</header>
+
+</head>
+
+<body>
+<div class="container">
+	<img class="cardImage" src="CapitalOneCard.jpg" alt="Capital One Card" />
+	<form class="input" onsubmit="return false;">
+		<p>Enter your weekly budget</p>
+		<p><input style="width:200px; height: 40px; font-size:20pt; font-weight:bold;" placeholder="$100" type="text" id="budget"></p>
+		<p><input class="submitButton" type="submit" onclick="fbudget();" /></p>
+		<script>
+			function fbudget() {
+				var input = document.getElementById("budget").value;
+				alert(input);
+			}
+		</script>
+	</form>
+</div>
+<center><h1 style="clear:both;">Account Information</h1></center>
+<table>
+	<tr>
+		<th>Account User</th>
+		<th>Account Number</th>
+		<th>Credit Limit</th>
+		<th>Phone Number</th>
+		<th>Account Active</th>
+		<th>Administrator</th>
+	</tr>
+	<tr>
+		<td>John Doe</td>
+		<td>XXXXXXXXXXXX</td>
+		<td>$XXXX</td>
+		<td>(XXX) XXX-XXXX</td>
+		<td>YES</td>
+		<td>NO</td>
+	</tr>
+	<tr>
+		<td>John Doe</td>
+		<td>XXXXXXXXXXXX</td>
+		<td>$XXXX</td>
+		<td>(XXX) XXX-XXXX</td>
+		<td>YES</td>
+		<td>NO</td>
+	</tr>
+	<tr>
+		<td>John Doe</td>
+		<td>XXXXXXXXXXXX</td>
+		<td>$XXXX</td>
+		<td>(XXX) XXX-XXXX</td>
+		<td>YES</td>
+		<td>NO</td>
+	</tr>
+	<tr>
+		<td>John Doe</td>
+		<td>XXXXXXXXXXXX</td>
+		<td>$XXXX</td>
+		<td>(XXX) XXX-XXXX</td>
+		<td>YES</td>
+		<td>NO</td>
+	</tr>
+	<tr>
+		<td>John Doe</td>
+		<td>XXXXXXXXXXXX</td>
+		<td>$XXXX</td>
+		<td>(XXX) XXX-XXXX</td>
+		<td>YES</td>
+		<td>NO</td>
+	</tr>
+	<tr>
+		<td>John Doe</td>
+		<td>XXXXXXXXXXXX</td>
+		<td>$XXXX</td>
+		<td>(XXX) XXX-XXXX</td>
+		<td>YES</td>
+		<td>NO</td>
+	</tr>
+	
+</table>
+
+<input class="runButton" type="button" value="Run One Virtual Day" />
+
+</body>
+</html>
